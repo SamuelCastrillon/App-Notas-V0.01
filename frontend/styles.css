@@ -1,0 +1,73 @@
+
+body{
+    background-color: #222;
+    color: #fff;
+    font-family: system-ui;
+    display: flex;
+    justify-content: center;
+
+}
+
+main{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Dark{
+    border: 2px solid #414141;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 15px;
+}
+
+#App{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CamposApp{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div>label{
+    font-weight: bold;
+}
+
+    #titulo{
+    /* text-align: center; */
+    min-width: 200px;
+    margin-left: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    }
+
+    #parrafo{
+    width: 350px;
+    height: 300px;    
+    margin-top: 5px;
+    font-family: system-iu;
+    }
+
+    #BotonGuardar{    
+    font-weight: bold;
+    /* border-radius: 20px; */
+    width: 100px;
+    height: 40px;
+
+    }
+
+#VisorGuardadas{
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;  
+    
+}
